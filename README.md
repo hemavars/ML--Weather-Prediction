@@ -133,7 +133,7 @@ print("\n--- NEXT STEP PREDICTIONS (Using Latest Data) ---")
 for target in targets:
     pred_val = models[target].predict(latest_data)[0]
     print(f"Predicted {target_meta[target][0]}: {pred_val:.2f} {target_meta[target][1]}")
-
+```
 ## Output:
 <img width="1277" height="596" alt="Screenshot 2026-03-16 210321" src="https://github.com/user-attachments/assets/e8d1b026-5307-429b-89f7-4ae74947911e" />
 <img width="1224" height="482" alt="Screenshot 2026-03-16 210350" src="https://github.com/user-attachments/assets/e853214a-f481-4828-9dba-2cefc59c95e3" />
